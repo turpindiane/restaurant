@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "b87e9570-50ea-4a0d-8cc2-aadfb342bad3",
+		"name": "restaurant",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24859514"
+	},
+	"item": [
+		{
+			"name": "/calculate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/calculate?appetizer=5&dessert=7&beverage=9&entree=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculate"
+					],
+					"query": [
+						{
+							"key": "appetizer",
+							"value": "5"
+						},
+						{
+							"key": "dessert",
+							"value": "7"
+						},
+						{
+							"key": "beverage",
+							"value": "9"
+						},
+						{
+							"key": "entree",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/dishes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/dishes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dishes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/appetizers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/appetizers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"appetizers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/entrees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/entrees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"entrees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/desserts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/desserts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"desserts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/beverages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/beverages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beverages"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-// validates that an entry exists in the dishes table with the provided id and course
+// validates that an entry exists in the dishes table for the provided id and course
 func validateCourse(db *sql.DB, id string, c string) (dish, int, error) {
 	// validate that id is a valid integer
 	i, err := strconv.Atoi(id)
