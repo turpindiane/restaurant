@@ -1,0 +1,1 @@
+create type course as enum('appetizer', 'entree', 'dessert', 'beverage');
